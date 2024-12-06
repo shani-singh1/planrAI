@@ -61,7 +61,7 @@ export function AIChat() {
   };
 
   return (
-    <Card className="flex flex-col h-[400px]">
+    <Card className="flex flex-col h-[400px] m-4 p-5">
       <ScrollArea className="flex-1 p-4">
         {messages.map((message, index) => (
           <div
