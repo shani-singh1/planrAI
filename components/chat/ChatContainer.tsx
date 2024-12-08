@@ -1,6 +1,6 @@
 import React from 'react';
-import { ChatInput } from './ChatInput';
-import { Message } from './Message';
+import { ChatInput } from './ChatInput.tsx';
+import { Message } from './Message.tsx';
 
 export const ChatContainer: React.FC = () => {
   const [messages, setMessages] = React.useState<
